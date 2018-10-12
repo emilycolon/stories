@@ -43,3 +43,15 @@ footer {
   text-align: center;
   margin: 5% auto;
 }
+
+@media only screen and (max-width: 600px) {
+  ul {
+    display: block;
+  }
+
+  li {
+    display: block;
+    padding: 4% 5%;
+    line-height: 1em;
+  }
+}
