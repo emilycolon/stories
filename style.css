@@ -1,11 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: rgb(238, 236, 232);
+  background-color: #eeece8;
 }
 
 header {
+  background-image: url('diamonds.png');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
   text-align: center;
-  margin: 5% auto;
+  padding: 5% auto 0;
 }
 
 ul {
@@ -24,7 +28,7 @@ a {
   font-family: 'Just Me Again Down Here', cursive;
   font-size: 1.5em;
   font-weight: bolder;
-  color: rgb(54, 54, 54);
+  color: rgb(22, 22, 22);
 }
 
 hr {
@@ -37,6 +41,7 @@ h1 {
 
 .top {
   font-size: 1em;
+  color: rgb(54, 54, 54);
 }
 
 footer {
